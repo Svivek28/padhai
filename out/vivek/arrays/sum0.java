@@ -1,11 +1,13 @@
 package out.vivek.arrays;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class sum0 {
 
     public static void main(String[] args) {
-        int m[]={-1,0,1,2,3};
+        int m[]={-8 ,-10 ,-10 ,-10, 10, 6, 1, 10};
+        Arrays.sort(m);
         int k=0;
         System.out.println(sum00(m,k));
     }
